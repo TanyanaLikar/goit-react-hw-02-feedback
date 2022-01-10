@@ -1,9 +1,11 @@
 import './App.css';
+import { GlobalStyle } from './components/GlobalStyle';
 
 function App() {
   return (
     <div className="App">
-      <h1></h1>
+      <GlobalStyle />
+      <h1>Hello</h1>
     </div>
   );
 }
