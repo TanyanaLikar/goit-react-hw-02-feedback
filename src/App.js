@@ -1,11 +1,11 @@
-import './App.css';
 import { GlobalStyle } from './components/GlobalStyle';
+import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions ';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <GlobalStyle />
-      <h1>Hello</h1>
+      <FeedbackOptions />
     </div>
   );
 }
